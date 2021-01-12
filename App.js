@@ -16,7 +16,7 @@ export default function App() {
   DarkThemeNavigation.colors.card = "#15212b";
 
   const toggleTheme = () => {
-    setTheme(theme === "darprueba" ? "light" : "dark");
+    setTheme(theme === "dark" ? "light" : "dark");
   }
 
   const preference = useMemo(
